@@ -7,9 +7,9 @@ export default function SearchBar() {
   }
 
   return (
-    <form onSubmit={handleRecipeSearch} className="relative">
+    <form onSubmit={handleRecipeSearch} className="relative drop-shadow-md shadow-grey-400">
       <input
-        className="w-[350px] border-[1px] border-gray-300 rounded-md p-4 focus:outline-none bg-gray-200"
+        className="w-[350px] border-[1px] border-gray-300 rounded-md p-4 focus:outline-none bg-gray-100"
         type="text"
         placeholder="Separate ingredients w/ a comma"
       />

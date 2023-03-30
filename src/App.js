@@ -8,7 +8,7 @@ function App() {
   //TODO 3: Establish Routes to different pages/components
   //TODO 4: Test routes in browser
   return (
-    <div className="App">
+    <div className="bg-[url(./assets/background-image.jpg)] bg-cover bg-center h-screen">
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />

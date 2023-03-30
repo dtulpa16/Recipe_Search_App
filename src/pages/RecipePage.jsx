@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import RecipeList from "../components/RecipeList";
 
 export default function RecipePage() {
   return (
-    <div>RecipePage</div>
-  )
+    <div>
+      <RecipeList />
+    </div>
+  );
 }
