@@ -2,6 +2,8 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import RecipePage from "./pages/RecipePage";
+import RecipeSummary from "./components/RecipeSummary";
+
 function App() {
   //TODO 1: npm i react-router react-router-dom
   //TODO 2: Add React Router imports
